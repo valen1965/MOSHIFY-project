@@ -188,17 +188,28 @@ a {
 /* TODO:  Buttons  */
 
 .btn {
+<<<<<<< HEAD
   align-items: center;
   border-radius: 30px;
   border: 0;
   cursor: pointer;
   display: flex;
+=======
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+>>>>>>> 96e095568c75b3f98d1a0fbd5f6e0a734b2d9a83
   font-size: 1.8rem;
   font-weight: 600;
   margin: 1rem 0;
   padding: 2rem 3rem;
+<<<<<<< HEAD
   text-align: center;
   text-transform: uppercase;
+=======
+  text-transform: uppercase;
+  text-align: center;
+>>>>>>> 96e095568c75b3f98d1a0fbd5f6e0a734b2d9a83
   white-space: nowrap;
 }
 
