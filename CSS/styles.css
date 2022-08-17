@@ -8,6 +8,12 @@
   --color-bodytext: #918ca4;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 /*TODO: identifying topography */
 
 html {
@@ -160,12 +166,13 @@ a {
 
 /* TODO:   Icons */
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
+  margin-right: 1.5rem;
 }
 
 .icon--primary {
-  fill: var(--color-primary);
+  fill: #fff;
 }
 
 .icon-container {
@@ -176,4 +183,70 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+/* TODO:  Buttons  */
+
+.btn {
+  align-items: center;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  padding: 2rem 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.btn--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.btn--primary:hover {
+  background: rgb(84, 84, 188);
+}
+
+.btn--secondary {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.btn--secondary:hover {
+  background: #00c8eb;
+}
+
+.btn--accent {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+.btn--accent:hover {
+  background: #e85834;
+}
+
+.btn--block {
+  width: 100%;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+
+.btn--outline {
+  background: #fff;
+  color: var(--color-headings);
+  border: 2px solid var(--color-headings);
+}
+
+.btn--outline:hover {
+  background: var(--color-headings);
+  color: #fff;
 }
