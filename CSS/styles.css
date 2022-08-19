@@ -247,6 +247,11 @@ a {
   background: #e85834;
 }
 
+.btn--stretched {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
 .btn--block {
   width: 100%;
   display: inline-block;
@@ -508,5 +513,55 @@ FIXME:*/
   }
   .testimonial .quote {
     margin-left: 6rem;
+  }
+}
+
+/* TODO:   Callouts  */
+
+.callout {
+  padding: 5rem;
+  border-radius: 5px;
+}
+
+.callout--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.callout__heading {
+  color: #fff;
+  margin-top: 0;
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+/* Grid properties (alignment)
+
+.grid {
+  display: grid;
+  justify-items:center; (default value:stretch) for horizontal alignment
+  align-items: center;   (default value:stretch) for vertical alignment */
+
+.callout .btn {
+  justify-self: center;
+  align-self: center;
+}
+
+.callout__content {
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .callout .grid--1x2 {
+    grid-template-columns: 1fr auto;
+  }
+
+  .callout__content {
+    text-align: left;
+  }
+  .callout .btn {
+    justify-self: start;
+    margin: 0 2rem;
   }
 }
