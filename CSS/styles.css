@@ -187,6 +187,10 @@ a {
   fill: #fff;
 }
 
+.icon--black {
+  fill: black;
+}
+
 .icon-container {
   background: #f3f9fa;
   width: 64px;
@@ -564,4 +568,49 @@ FIXME:*/
     justify-self: start;
     margin: 0 2rem;
   }
+}
+
+/* TODO: Collapsibles  */
+
+.collapsible__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapsible__heading {
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.collapsible__chevron {
+  transform: rotate(-90deg);
+  transition: transform 0.5s;
+}
+
+/* standard collapsible property 
+
+.collapsible__content {
+  display: none;
+}
+*/
+
+/* TODO:   animated collapsible property   */
+
+.collapsible__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.7s;
+}
+
+.collapsible--expanded .collapsible__chevron {
+  transform: rotate(0);
+}
+
+.collapsible--expanded .collapsible__content {
+  /* display: block;
+
+ for animated property */
+  max-height: 100vh;
+  opacity: 1;
 }
