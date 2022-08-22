@@ -340,6 +340,11 @@ a {
   background: var(--color-primary);
   color: #fff;
 }
+
+.card--primary .badge--primary {
+  background: #126de4;
+}
+
 .card--secondary .card__header {
   background: var(--color-secondary);
   color: #fff;
@@ -385,8 +390,23 @@ prior to inserting Header must be set to relative position
 
 FIXME:*/
 
+.plan {
+  transition: transform 0.3s ease-out;
+}
+
+.plan--popular {
+  transform: scale(1.1);
+}
+
 .plan--popular .card__header {
   position: relative;
+}
+
+.plan:hover {
+  transform: scale(1.05);
+}
+.plan--popular:hover {
+  transform: scale(1.15);
 }
 
 .plan--popular .card__header::before {
@@ -777,4 +797,15 @@ FIXME:*/
   .block-domain__prices {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
+}
+
+/* TODO:   Plans Block  */
+
+.block-plans .grid {
+  gap: 8rem 4rem;
+}
+
+.block-plans .card {
+  max-width: 500px;
+  margin: 0;
 }
