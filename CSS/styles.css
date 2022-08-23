@@ -428,7 +428,7 @@ FIXME:*/
   width: 40px;
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .plan__name {
     font-size: 1.4rem;
   }
