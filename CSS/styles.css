@@ -1,4 +1,4 @@
-/*TODO: identifying colors ( global variables or custom properties) */
+/*TODO: identifying colorsst ( global variables or custom properties) */
 
 :root {
   --color-primary: #2584ff;
@@ -212,6 +212,9 @@ a {
   background: var(--color-accent);
 }
 
+.icon-container--grey {
+  background: #999999;
+}
 /* TODO:  Buttons  */
 
 .btn {
@@ -677,6 +680,16 @@ FIXME:*/
   color: #fff;
 }
 
+.block--grey {
+  background: #333333;
+}
+
+.block--grey h1,
+.block--grey h2,
+.block--grey h3 {
+  color: #fff;
+}
+
 .block--skewed-right {
   clip-path: polygon(
     0% 0%,
@@ -866,3 +879,96 @@ FIXME:*/
 }
 
 /* TODO:  Testimonial block  */
+
+/* TODO: Footer  
+=======================*/
+/* My personal version 
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.footer__section {
+  padding: 2rem;
+  border-bottom: 1px solid #393939;
+}
+
+.block__footer .collapsible__heading {
+  margin: 3rem 4rem;
+}
+
+.footer__item {
+  color: var(--color-bodytext);
+}
+
+*/
+
+.footer {
+  background: #232323;
+}
+
+.footer a {
+  color: #7777;
+  transition: color 0.4s;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer__section {
+  padding: 2rem;
+  border-bottom: 1px solid #393939;
+}
+
+.footer__section .list {
+  margin: 0;
+}
+.footer__heading {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer__brand {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.footer__brand img {
+  /* TODO:  Consider refactoring this and applying to all images */
+
+  width: 100%;
+  max-width: 230px;
+}
+
+.footer__copyright {
+  font-size: 1.1rem;
+  color: #fff;
+  opacity: 0.3;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__sections {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+  .footer .collapsible__chevron {
+    display: none;
+  }
+  .footer .collapsible__content {
+    opacity: 1;
+    max-height: 100%;
+  }
+  .footer__brand {
+    order: -1;
+    margin-top: 1rem;
+  }
+  .footer__section {
+    border: none;
+  }
+  .footer__heading {
+    font-size: 1.6rem;
+  }
+}
