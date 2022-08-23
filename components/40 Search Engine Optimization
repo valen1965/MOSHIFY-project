@@ -4,15 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Deploy your websites in less than 60 seconds."
-    />
-    <meta property="og:title" content="Moshify..." />
-    <meta property="og:description" content="Moshify..." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="http://" />
-    <meta property="og:url" content="http://moshified.com" />
+    <meta name="description" content="Deploy your websites in less than 60 seconds.">
+    <meta property="og:title" content="Moshify...">
+    <meta property="og:description" content="Moshify...">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://">
+    <meta property="og:url" content="http://moshified.com">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -167,14 +164,16 @@
           </div>
         </div>
       </div>
+      </div>
+      </div>
+      </div>
     </section>
 
     <section class="block container">
       <header class="block__header">
         <h2>Host on the Cloud to Keep Growing</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          magni!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, magni!
         </p>
       </header>
       <article class="grid grid--1x2 feature">
@@ -187,8 +186,7 @@
           <h3 class="feature__heading">Super Seay To Use</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil
-            quam laborum sapiente a dolorum recusandae maxime rerum delectus
-            libero.
+            quam laborum sapiente a dolorum recusandae maxime rerum delectus libero.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
@@ -204,7 +202,7 @@
           <img class="feature__image" src="/images/easy.jpg" alt="" />
         </picture>
       </article>
-
+    
       <article class="grid grid--1x2 feature">
         <div class="feature__content">
           <span class="icon-container">
@@ -215,8 +213,7 @@
           <h3 class="feature__heading">Simply fast websites</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil
-            quam laborum sapiente a dolorum recusandae maxime rerum delectus
-            libero.
+            quam laborum sapiente a dolorum recusandae maxime rerum delectus libero.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
@@ -232,7 +229,7 @@
           <img class="feature__image" src="/images/fast.jpg" alt="" />
         </picture>
       </article>
-
+    
       <article class="grid grid--1x2 feature">
         <div class="feature__content">
           <span class="icon-container">
@@ -243,8 +240,7 @@
           <h3 class="feature__heading">WordPress made easy</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil
-            quam laborum sapiente a dolorum recusandae maxime rerum delectus
-            libero.
+            quam laborum sapiente a dolorum recusandae maxime rerum delectus libero.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
@@ -260,7 +256,7 @@
           <img class="feature__image" src="/images/wordpress.jpg" alt="" />
         </picture>
       </article>
-
+    
       <article class="grid grid--1x2 feature">
         <div class="feature__content">
           <span class="icon-container">
@@ -271,8 +267,7 @@
           <h3 class="feature__heading">24/7 Expert Support</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil
-            quam laborum sapiente a dolorum recusandae maxime rerum delectus
-            libero.
+            quam laborum sapiente a dolorum recusandae maxime rerum delectus libero.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
@@ -289,13 +284,13 @@
         </picture>
       </article>
     </section>
-
+    
     <section class="block block--dark block--skewed-right block-showcase">
-      <header class="block__header" data-aos="slide-right">
+      <header class="block__header"data-aos="slide-right">
         <h2>User Friendly Control Panel</h2>
       </header>
       <div class="container grid grid--1x2">
-        <picture class="block-showcase__image" data-aos="slide-right">
+        <picture class="block-showcase__image"data-aos="slide-right">
           <source
             type="image/webp"
             srcset="images/ipad@1x.webp 1x, images/ipad@2x.webp 2x"
@@ -306,7 +301,7 @@
           />
           <img src="images/ipad.png" alt="Ipad Screen" />
         </picture>
-        <ul class="list" data-aos="fade-up">
+        <ul class="list"data-aos="fade-up">
           <li>
             <div class="media">
               <div class="media__image">
@@ -317,9 +312,9 @@
               <div class="media__body">
                 <h3 class="media__title">Easy start & Manage Updates</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corrupti ipsa, facere architecto provident mollitia
-                  dignissimos officiis obcaecati unde voluptatibus iure?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                  ipsa, facere architecto provident mollitia dignissimos officiis
+                  obcaecati unde voluptatibus iure?
                 </p>
               </div>
             </div>
@@ -334,9 +329,9 @@
               <div class="media__body">
                 <h3 class="media__title">Easy start & Manage Updates</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corrupti ipsa, facere architecto provident mollitia
-                  dignissimos officiis obcaecati unde voluptatibus iure?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                  ipsa, facere architecto provident mollitia dignissimos officiis
+                  obcaecati unde voluptatibus iure?
                 </p>
               </div>
             </div>
@@ -351,9 +346,9 @@
               <div class="media__body">
                 <h3 class="media__title">Easy start & Manage Updates</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corrupti ipsa, facere architecto provident mollitia
-                  dignissimos officiis obcaecati unde voluptatibus iure?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                  ipsa, facere architecto provident mollitia dignissimos officiis
+                  obcaecati unde voluptatibus iure?
                 </p>
               </div>
             </div>
@@ -361,25 +356,21 @@
         </ul>
       </div>
     </section>
-
-    <section class="block" data-aos="zoom-in-up">
+    
+    <section class="block"data-aos="zoom-in-up">
       <header class="block__header">
         <h2 class="block__heading">
           What our Customers are Saying
         </h2>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum,
-          dicta?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, dicta?
         </p>
       </header>
       <div class="container">
         <div class="card testimonial">
           <div class="grid grid--1x2">
             <div class="testimonial__image">
-              <img
-                src="/images/testimonial.jpg"
-                alt="A happy, smiling customer"
-              />
+              <img src="/images/testimonial.jpg" alt="A happy, smiling customer" />
               <span class="icon-container icon-container--accent">
                 <svg class="icon icon--white icon--small">
                   <use xlink:href="images/sprite.svg#quotes"></use>
@@ -388,9 +379,9 @@
             </div>
             <blockquote class="quote">
               <p class="quote__text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Deserunt quis ab facilis laboriosam dolorem vitae a ratione!
-                Doloremque, accusamus atque.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+                quis ab facilis laboriosam dolorem vitae a ratione! Doloremque,
+                accusamus atque.
               </p>
               <footer>
                 <div class="media">
@@ -410,52 +401,48 @@
         </div>
       </div>
     </section>
-
-    <footer class="block block--dark footer" data-aos="zoom-out-down">
+    
+    <footer class="block block--dark footer"data-aos="zoom-out-down">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
-          <div class="collapsible__header">
+          <header class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Item 1</h2>
-            <svg class="icon icon--black collapsible__chevron">
-              <use xlink:href="images/sprite3.svg#chevron-down"></use>
-            </svg>
-          </div>
+              <svg class="icon icon--black collapsible__chevron">
+                <use xlink: href="images/sprite3.svg#chevron-down"></use>
+              </svg>
+           </header>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">WordPress Hostion</a></li>
-              <li><a href="#">Free Automated WordPress</a></li>
-              <li></li>
+              <li><a href="#">Free Automated WordPress</a><li>
               <li><a href="#">Migrations</a></li>
             </ul>
           </div>
-        </section>
-
+        </section> 
+    
         <section class="collapsible footer__section">
-          <div class="collapsible__header">
+          <header class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Item 2</h2>
-            <svg class="icon icon--black collapsible__chevron">
-              <use xlink:href="images/sprite3.svg#chevron-down"></use>
-            </svg>
-          </div>
+              <svg class="icon icon--black collapsible__chevron">
+                <use xlink: href="images/sprite3.svg#chevron-down"></use>
+              </svg>
+           </header>
           <div class="collapsible__content">
             <ul class="list">
-              <li><a href="#">Affiliates</a></li>
-              <li></li>
-              <li><a href="#">Blog</a></li>
-              <li></li>
-              <li><a href="#">About</a></li>
-              <li></li>
+              <li><a href="#">Affiliates</a><li>
+              <li><a href="#">Blog</a><li>
+              <li><a href="#">About</a><li>
             </ul>
           </div>
-        </section>
-
+        </section> 
+    
         <section class="collapsible footer__section">
-          <div class="collapsible__header">
+          <header class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Item 3</h2>
-            <svg class="icon icon--black collapsible__chevron">
-              <use xlink:href="images/sprite3.svg#chevron-down"></use>
-            </svg>
-          </div>
+              <svg class="icon icon--black collapsible__chevron">
+                <use xlink: href="images/sprite3.svg#chevron-down"></use>
+              </svg>
+           </header>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Contact</a></li>
@@ -463,15 +450,15 @@
               <li><a href="#">Forums</a></li>
             </ul>
           </div>
-        </section>
-
+        </section> 
+    
         <section class="collapsible footer__section">
-          <div class="collapsible__header">
+          <header class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Item 4</h2>
-            <svg class="icon icon--black collapsible__chevron">
-              <use xlink:href="images/sprite3.svg#chevron-down"></use>
-            </svg>
-          </div>
+              <svg class="icon icon--black collapsible__chevron">
+                <use xlink: href="images/sprite3.svg#chevron-down"></use>
+              </svg>
+           </header>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Domain Checker</a></li>
@@ -479,18 +466,18 @@
               <li><a href="#">Free Domain</a></li>
             </ul>
           </div>
+        </section> 
+    
+        <section class="footer__brand">
+          <img src="images/logo.svg" alt="Nice Looking Logo">
+          <p class="footer__copyright">Copyright &copy 2020  Mosh Hamedani </p>
         </section>
-
-        <div class="footer__brand">
-          <img src="images/logo.svg" alt="Nice Looking Logo" />
-          <p class="footer__copyright">Copyright &copy; 2020 Mosh Hamedani</p>
-        </div>
-      </div>
+      </div> 
     </footer>
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init()
-    </script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
