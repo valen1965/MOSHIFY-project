@@ -658,7 +658,9 @@ FIXME:*/
 
 /*  TODO:   Blocks   */
 .block {
-  --padding-vertical: 6rem; /* global variable for particular element and all its children*/
+  --padding-vertical: 6rem;
+    /* global variable for particular element and all 
+    its children*/
   padding: var(--padding-vertical) 2rem;
 }
 
