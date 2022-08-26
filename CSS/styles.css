@@ -671,6 +671,7 @@ FIXME:*/
 
 .block__heading {
   margin-top: 0;
+  font-size: 5rem;
 }
 
 .block--dark {
@@ -780,10 +781,11 @@ FIXME:*/
 }
 
 .hero__tagline {
-  color: #b9c3cf;
-  font-size: 2rem;
+  color: #c1400a;
+    font-size: 6rem;
   letter-spacing: 1px;
   margin: 2rem 0 5rem;
+
 }
 
 .hero__image {
