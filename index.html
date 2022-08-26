@@ -56,7 +56,14 @@
           <p class="hero__tagline">
             И за сказанное как ЖАХНЕМ !
           </p>
-          <a href="#" class="btn btn--accent btn--stretched">Стартуем ?</a>
+<div>
+  <audio id="audio">
+    <source src="/audio/hit-2014.mp3" type="audio/mpeg">
+  </audio>
+
+  <button id="playBtn" class="btn btn--accent btn--stretched" onclick="playPause()">Стартуем ???</button>
+</div>
+
         </header>
         <picture data-aos="zoom-in">
           <source
@@ -75,6 +82,7 @@
         </picture>
       </div>
     </section>
+    <audio id="song" src="/audio/song.mp3"></audio>
     
 
   
@@ -272,6 +280,7 @@
     </footer>
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="custom.js"></script>
     <script>
       AOS.init()
     </script>
