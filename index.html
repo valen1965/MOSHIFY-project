@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="/CSS/normalize.css" />
     <link rel="stylesheet" href="/CSS/styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Moshify - Go Online for Just $100</title>
+    <title>Happy Birthday !</title>
   </head>
   <body>
     <header>
@@ -49,46 +49,54 @@
         </ul>
       </nav>
     </header>
-    <section class="block block--dark block--skewed-left hero">
-      <div class="container grid grid--1x2">
-        <header class="block__header hero__content" data-aos="zoom-in">
-          <h1 class="block__heading">Пусть это смутное время быстрее закончится!!</h1>
-          <p class="hero__tagline">
-            И за сказанное как ЖАХНЕМ !
-          </p>
-
-
-<div>
-  <audio id="audio">
-    <source src="audio/artist-ukraine.mp3" type="audio/mpeg">
-  </audio>
-
-  <button id="playPauseBTN" class="btn btn--accent btn--stretched" onclick="playPause()">Play &#9658;</button>
-  &nbsp;
-</div>
-
-        </header>
-        <picture data-aos="zoom-in">
-          <source
-            type="image/webp"
-            srcset="images/happy.webp"
-          />
-          <source
-            type="image/png"
-            srcset="images/happy.jpg"
-          />
-          <img
-            class="hero__image"
-            src="images/happy.jpg"
-            alt="Nice looking banner"
-          />
-        </picture>
+    <section class="block" data-aos="zoom-in-up">
+      <header class="block__header">
+        <h2 class="block__heading">
+          Вместе мы переживем это трудное время.
+        </h2>
+        <p>
+          Сильный не тот, кто одержал победу над слабым, а тот, кто придет слабому на помощь.
+        </p>
+      </header>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img
+                src="/images/family.jpg"
+                alt="A happy, smiling customer"
+              />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use href="images/sprite.svg#quotes"></use>
+                </svg>
+              </span>
+              </div>
+              <blockquote class="quote">
+                <p class="quote__text">
+                  За каждым сильным мужчиной стоит женщина.
+                  А у меня две любимых женщины. И этот приятный факт дает мне силу бороться и идти дальше.
+                </p>
+                <footer>
+                  <div class="media">
+                    <div class="media__image">
+                      <svg class="icon icon--primary quote__line">
+                        <use href="/images/sprite.svg#line"></use>
+                      </svg>
+                    </div>
+                    <div class="media__body">
+                      <h3 class="media__title quote__author">Владимир Важненко </h3>
+                      <p class="quote__company-name"></p>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+              </div>
+              </div>
       </div>
     </section>
-    <audio id="song" src="/audio/song.mp3"></audio>
-    
 
-  
+
     <section class="block block--dark block--skewed-right block-showcase">
       <header class="block__header" data-aos="slide-right">
         <h2>Что говорят сегодня !</h2>
@@ -132,7 +140,7 @@
               <div class="media__body">
                 <h3 class="media__title">- Неизвестный автор...</h3>
                 <p>
-                  А не так и страшная темнота, если есть кто-то,
+                  А не так и страшна темнота, если есть кто-то,
                   кто держит нас за руку.
                 </p>
               </div>
@@ -158,52 +166,30 @@
       </div>
     </section>
 
-    <section class="block" data-aos="zoom-in-up">
-      <header class="block__header">
-        <h2 class="block__heading">
-          Вместе мы переживем это трудное время.
-        </h2>
-        <p>
-          Сильный не тот, кто одержал победу над слабым, а тот, кто придет слабому на помощь.
-        </p>
-      </header>
-      <div class="container">
-        <div class="card testimonial">
-          <div class="grid grid--1x2">
-            <div class="testimonial__image">
-              <img
-                src="/images/family.jpg"
-                alt="A happy, smiling customer"
-              />
-              <span class="icon-container icon-container--accent">
-                <svg class="icon icon--white icon--small">
-                  <use href="images/sprite.svg#quotes"></use>
-                </svg>
-              </span>
-            </div>
-            <blockquote class="quote">
-              <p class="quote__text">
-                За каждым сильным мужчиной стоит женщина.
-                А у меня две любимых женщины. И этот приятный факт дает мне силу бороться и идти дальше.
-              </p>
-              <footer>
-                <div class="media">
-                  <div class="media__image">
-                    <svg class="icon icon--primary quote__line">
-                      <use href="/images/sprite.svg#line"></use>
-                    </svg>
-                  </div>
-                  <div class="media__body">
-                    <h3 class="media__title quote__author">Владимир Важненко </h3>
-                    <p class="quote__company-name"></p>
-                  </div>
-                </div>
-              </footer>
-            </blockquote>
-          </div>
-        </div>
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content" data-aos="zoom-in">
+          <h1 class="block__heading">Пусть это смутное время быстрее закончится!!</h1>
+          <p class="hero__tagline">
+            И за сказанное как ЖАХНЕМ !
+          </p>
+    <div>
+      <audio id="audio">
+        <source src="audio/artist-ukraine.mp3" type="audio/mpeg">
+      </audio>
+    
+      <button id="playPauseBTN" class="btn btn--accent btn--stretched" onclick="playPause()">Play &#9658;</button>
+      &nbsp;
+    </div>
+    </header>
+    <picture data-aos="zoom-in">
+      <source type="image/webp" srcset="images/happy.webp" />
+      <source type="image/png" srcset="images/happy.jpg" />
+      <img class="hero__image" src="images/happy.jpg" alt="Nice looking banner" />
+    </picture>
       </div>
     </section>
+    <audio id="song" src="/audio/song.mp3"></audio>
 
     <footer class="block block--dark footer" data-aos="zoom-out-down">
       <div class="container grid footer__sections">
